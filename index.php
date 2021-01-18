@@ -22,5 +22,7 @@
   <body>
     <h1>This is a heading</h1>
     <p><a href="second.html">new page</a></p>
+    <?php include "footer.php"
+    ?>
   </body>
 </html>
