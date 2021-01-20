@@ -2,39 +2,41 @@
   <title>Gabriele Cerpi Academy</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="description" content="GC ACADEMY">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-
-</head>
-<body>
-<nav class="navbar navbar-default " role="navigation">
-<div class="navbar-header">
-     <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-     </button>
-     <div id="header-image">
-   <img width="100" height="100" alt="100" class="header-image" src="Images\Logonb.png"></div>
-  </div>
-    </div>
-    <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-center">
-        <li><a> </a>
-            <li><a href="#">Contatti</a></li>
-          
-            <li><a href="#">Chi sono</a></li>
-          
-            <li><a href="#">L'Academy</a></li>
-         
-            <li><a href="#">Prezzi e Configurazioni</a></li>
+<nav class="navbar navbar-light navbar-expand-md bg-light justify-content-center">
+    <a href="/" class="navbar-brand mr-0">
+    <img width="280" height="100" alt="100" class="header-image" src="Images\logo3.png"></div>
+    </a>
+    <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+        <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">HOME <span class="sr-only">Home</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="//codeply.com">COACH</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="//codeply.com">COMMUNITY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="//codeply.com">EVENTI</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="//codeply.com">CONTATTI</a>
+            </li>
         </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+          
     </div>
 </nav>
-</body>
-
