@@ -7,22 +7,25 @@
     <title>Testing</title>
     <!--Meta tags end-->
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <!--Bootstrap ends here-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 
-    <!--CSS link-->
-    <link rel="stylesheet" href="frontpage.css" />
-  </head>
-  <body>
-    <h1>This is a heading</h1>
-    <p><a href="second.html">new page</a></p>
-    <?php include "footer.php"
-    ?>
-  </body>
+  <title>GC Academy</title>
+</head>
+
+<body>
+  <div class="container">
+    <?php include "header.php" ?>
+    <div class="row">
+      <div class="col-sm-12" id="heading">
+        <h1 id="heading_text">Calisthenics Academy</h1>
+      </div>
+    </div>
+  </div>
+  <?php include "footer.php" ?>
+
+</body>
+
 </html>
