@@ -11,11 +11,7 @@
 
 <body>
   <div class="container">
-    <nav class="navbar navbar-light navbar-expand-lg bg-light justify-content-center no-padding">
-      <a href="/" class="navbar-brand mr-0">
-        <img width="280" height="100" alt="100" class="header-image" src="Images\logo3.png">
-
-      </a>
+    <nav class="navbar navbar-light navbar-expand-lg bg-light justify-content-center bg-white">
       <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,16 +27,22 @@
             <a class="nav-link" href="//codeply.com">COMMUNITY</a>
           </li>
           <li class="nav-item">
+            <img width="280" height="100" alt="100" class="header-image" src="Images\GC_Logo.jpeg">
+
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="//codeply.com">EVENTI</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="//codeply.com">CONTATTI</a>
           </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
+
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <button class="btn btn-outline-warning btn-sm">
+              <a class="nav-link" href="#">ENTRA NELL’ACADEMY</a>
+            </button>
           </li>
+        </ul>
 
       </div>
   </div>
